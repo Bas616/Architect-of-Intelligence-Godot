@@ -8,7 +8,7 @@ This repository contains the complete Godot Engine 4 project for **"The Architec
 
 The film serves as a visual metaphor for the role of an AI Systems Architect, exploring the journey from chaotic data to a synthesized consciousness. It was created for an academic project for a "Modern Innovations and Technology" course.
 
-**[▶️ Watch the Final Render on YouTube]([https://youtu.be/YOUR_VIDEO_ID_HERE](https://youtu.be/TBx6ZQZo940?si=fVoJ1syDO3Yxy8Sg))**
+**[▶️ Watch the Final Render on YouTube](https://youtu.be/TBx6ZQZo940?si=fVoJ1syDO3Yxy8Sg)**
 
 ![Showcase GIF](./assets/showcase.gif) 
 
