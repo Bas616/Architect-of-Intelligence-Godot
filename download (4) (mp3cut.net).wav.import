@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c1kpncw6eo6kk"
+path="res://.godot/imported/download (4) (mp3cut.net).wav-e3aaef802f89dbb9e8554bb799389a53.sample"
+
+[deps]
+
+source_file="res://download (4) (mp3cut.net).wav"
+dest_files=["res://.godot/imported/download (4) (mp3cut.net).wav-e3aaef802f89dbb9e8554bb799389a53.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

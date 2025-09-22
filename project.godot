@@ -1,0 +1,43 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[accessibility]
+
+general/accessibility_support=2
+
+[application]
+
+config/name="Digital_Career_Video"
+run/main_scene="uid://db6degnt3tm5l"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+config/icon="res://icon.svg"
+boot_splash/show_image=false
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+
+[display]
+
+window/size/viewport_width=2400
+window/size/viewport_height=1080
+window/size/always_on_top=true
+window/size/minimize_disabled=true
+window/size/maximize_disabled=true
+window/stretch/mode="canvas_items"
+
+[editor]
+
+movie_writer/video_quality=1.0
+movie_writer/movie_file="/storage/emulated/0/Documents/digital-career-video/d.avi"
+movie_writer/fps=90
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
