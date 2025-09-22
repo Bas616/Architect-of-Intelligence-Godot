@@ -24,7 +24,7 @@ This approach demonstrates:
 ## II. Technical Features
 
 -   **In-Engine Rendering:** The final video was exported as an `.avi` sequence directly from Godot using the built-in "Movie Maker" functionality, bypassing the need for screen recording.
--   **Single-Scene Cinematic:** The entire ~70-second sequence is controlled by a single `AnimationPlayer` within the main scene (`master_cinematic.tscn`).
+-   **Single-Scene Cinematic:** The entire ~70-second sequence is controlled by a single `AnimationPlayer` within the main scene (`main.tscn`).
 -   **Procedural Environment:** The "Matrix Ocean" and other background effects are driven by custom shaders.
 -   **Synchronized Audio/Visuals:** All narration and sound effects are triggered by the `AnimationPlayer`'s "Call Method Track" to ensure perfect synchronization with the animated visuals.
 
