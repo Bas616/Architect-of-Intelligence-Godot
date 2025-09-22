@@ -8,9 +8,7 @@ This repository contains the complete Godot Engine 4 project for **"The Architec
 
 The film serves as a visual metaphor for the role of an AI Systems Architect, exploring the journey from chaotic data to a synthesized consciousness. It was created for an academic project for a "Modern Innovations and Technology" course.
 
-**[▶️ Watch the Final Render on YouTube](https://youtu.be/TBx6ZQZo940?si=fVoJ1syDO3Yxy8Sg)**
-
-![Showcase GIF](./assets/showcase.gif) 
+**[▶️ Watch the Final Render on YouTube](https://youtu.be/TBx6ZQZo940?si=fVoJ1syDO3Yxy8Sg)** 
 
 ---
 
@@ -33,9 +31,10 @@ This approach demonstrates:
 ## III. How to Use & Explore
 
 1.  Clone this repository.
-2.  Open the project using **Godot Engine version 4.2** or newer.
-3.  The main scene is located at `scenes/master_cinematic.tscn`.
-4.  Press `F5` to play the cinematic in real-time within the editor.
+2.  Open the project using **Godot Engine version 4.5
+3.  ** or newer.
+4.  The main scene is located at `scenes/master_cinematic.tscn`.
+5.  Press `F5` to play the cinematic in real-time within the editor.
 
 ## IV. Credits & License
 
