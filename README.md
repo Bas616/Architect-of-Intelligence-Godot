@@ -1,83 +1,48 @@
-A simple state machine first person controller asset made in Godot 4
+# The Architect of Intelligence [Godot Engine Cinematic]
 
-![Asset logo](https://github.com/Jeh3no/Godot-Simple-State-Machine-First-Person-Controller/blob/main/addons/Arts/Godot%20Simple%20State%20Machine%20First%20Person%20Controller%20-%20Logo.png?raw=true)
+[![Status](https://img.shields.io/static/v1?label=status&message=completed&color=55ff88&style=for-the-badge)](https://github.com/Bas616/Architect-of-Intelligence-Godot)
+[![Engine](https://img.shields.io/badge/Rendered_In-Godot_4.2-478CBF?style=for-the-badge&logo=godot-engine&logoColor=white)](https://godotengine.org)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-# **General**
+This repository contains the complete Godot Engine 4 project for **"The Architect of Intelligence"**, a conceptual cinematic short film rendered entirely in-engine. This project eschews traditional video editing software in favor of leveraging Godot's powerful animation, shader, and sequencing tools to create a finished cinematic product directly from the source code.
 
+The film serves as a visual metaphor for the role of an AI Systems Architect, exploring the journey from chaotic data to a synthesized consciousness. It was created for an academic project for a "Modern Innovations and Technology" course.
 
-This asset provides a simple, fully commented, finite state machine based controller, camera, as well as a properties HUD
+**[▶️ Watch the Final Render on YouTube](https://youtu.be/YOUR_VIDEO_ID_HERE)**
+_(Remember to replace `YOUR_VIDEO_ID_HERE` with the actual ID from your YouTube upload!)_
 
-A test map is provided to test the controller.
+![Showcase GIF](./assets/showcase.gif) 
+_(Recommended: Add a short `showcase.gif` to the `assets` folder for a better visual overview)._
 
-The controller use a finite state machine, designed to be easely editable, allowing to easily add, remove and modify behaviours and actions.
+---
 
-Each state has his own script, allowing to easly filter and manage the communication between each state.
+## I. Philosophy: Code as Camera
 
-He is also very customizable, with a whole set of open variables for every state and for more general stuff. This is the same for the camera.
+The core philosophy of this project was to treat the game engine not merely as a platform for games, but as a virtual film studio. By controlling every visual element—camera movement, UI animations, shaders, and environmental effects—through Godot's master `AnimationPlayer`, we achieve a level of precision and programmatic control that is impossible with standard video editing tools.
 
-The asset is 100% written in GDScript.
+This approach demonstrates:
+-   **Technical Proficiency:** Mastery of Godot's animation system, spatial shaders (GLSL), and scene management.
+-   **Efficiency:** The ability to iterate and re-render entire sequences simply by adjusting keyframes and code.
+-   **Creative Control:** The fusion of developer, animator, and cinematographer roles into a single, cohesive workflow.
 
-He works on Godot 4.4, 4.3, and 4.2. I didn't test it in Godot 4.1 and Godot 4.0, but it should work just fine.
+## II. Technical Features
 
-The video showcasing the asset features : https://youtu.be/xq3AqMtmM_4
+-   **In-Engine Rendering:** The final video was exported as an `.avi` sequence directly from Godot using the built-in "Movie Maker" functionality, bypassing the need for screen recording.
+-   **Single-Scene Cinematic:** The entire ~70-second sequence is controlled by a single `AnimationPlayer` within the main scene (`master_cinematic.tscn`).
+-   **Procedural Environment:** The "Matrix Ocean" and other background effects are driven by custom shaders.
+-   **Synchronized Audio/Visuals:** All narration and sound effects are triggered by the `AnimationPlayer`'s "Call Method Track" to ensure perfect synchronization with the animated visuals.
 
+## III. How to Use & Explore
 
-# **Features**
+1.  Clone this repository.
+2.  Open the project using **Godot Engine version 4.2** or newer.
+3.  The main scene is located at `scenes/master_cinematic.tscn`.
+4.  Press `F5` to play the cinematic in real-time within the editor.
 
- - Smooth moving
- - Ability to move on slopes and hills
- - Walking
- - Crouching (continious and once pressed input)
- - Running (continious and once pressed input)
- - Jumping (multiple jump system)
- - Jump buffering
- - Coyote jump/time
- - Air control (easely customizable thanks to curves)
- - Bunny hopping (+ auto bunny hop)
-    
- - Camera tilt
- - Camera bob
- - Custom FOV
-   
- - Reticle
- - Properties HUD
+## IV. Credits & License
 
-# **Purpose**
+-   **Concept & Development:** [Bas616](https://github.com/Bas616)
+-   **Sound Effects:** All sound effects are from [Taira Komori's Free Sound Effects](https://taira-komori.jpn.org/) and are used under their terms of service.
+-   **Narration Synthesis:** Google Gemini 2.5 Pro TTS.
 
-
-At start, i just wanted to rework my FPS controller template, make an alternate version of it, closer to the finite state machine approach.
-
-But while i was working on it, i said to myself "why not share it with the community, when it's ready ?".
-
-And so here we go !
-
-
-# **How to use**
-
-
-It's an asset, which means you can add it to an existing project without any issue.
-
-Simply download it, add it to your project, get the files you want to use.
-
-You will see for the player character script (and in the camera script) a keybinding variables group,
-
-you need to create a input action in your project for each action, and then type the exact same name into the corresponding input action variable
-
-(for example : name your move forward action "moveForward", and then type "moveForward" into the variable "moveForwardAction").
-
-# **Requets**
-
-- For any bug request, please write on down in the "issues" section.
-
-- For any new feature/improvement request, please write it down in the "discussions" section.
-
-
-# **Credits**
-
-
-Godot Theme prototype Textures, by PiCode : https://godotengine.org/asset-library/asset/2480
-
-
-
-
- 
+This project is licensed under the MIT License. See the `LICENSE` file for details.
