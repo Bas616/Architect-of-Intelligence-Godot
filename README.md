@@ -1,7 +1,7 @@
 # The Architect of Intelligence [Godot Engine Cinematic]
 
 [![Status](https://img.shields.io/static/v1?label=status&message=completed&color=55ff88&style=for-the-badge)](https://github.com/Bas616/Architect-of-Intelligence-Godot)
-[![Engine](https://img.shields.io/badge/Rendered_In-Godot_4.2-478CBF?style=for-the-badge&logo=godot-engine&logoColor=white)](https://godotengine.org)
+[![Engine](https://img.shields.io/badge/Rendered_In-Godot_4.5-478CBF?style=for-the-badge&logo=godot-engine&logoColor=white)](https://godotengine.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 This repository contains the complete Godot Engine 4 project for **"The Architect of Intelligence"**, a conceptual cinematic short film rendered entirely in-engine. This project eschews traditional video editing software in favor of leveraging Godot's powerful animation, shader, and sequencing tools to create a finished cinematic product directly from the source code.
