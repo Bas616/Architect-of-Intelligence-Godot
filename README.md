@@ -31,10 +31,9 @@ This approach demonstrates:
 ## III. How to Use & Explore
 
 1.  Clone this repository.
-2.  Open the project using **Godot Engine version 4.5
-3.  ** or newer.
-4.  The main scene is located at `scenes/master_cinematic.tscn`.
-5.  Press `F5` to play the cinematic in real-time within the editor.
+2.  Open the project using **Godot Engine version 4.5** or newer.
+3.  The main scene is located at `main.tscn`.
+4.  Press `F5` to play the cinematic in real-time within the editor.
 
 ## IV. Credits & License
 
